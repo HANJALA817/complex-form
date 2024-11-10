@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form Design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1> Complex Form Design</h1>
+        </header>
+      <section class="Form-section">
+        <form>
+         <div class="inline-form">
+            <div class="Form-group">
+                <label for="First-Name">First Name</label>
+                <input 
+                type="text"
+                placeholder="Bm"
+                id="First-Name"
+                >
+            </div>
+            <div class="Form-group">
+                <label for="last-Name">Last Name</label>
+                <input 
+                type="text"
+                placeholder="Bappy"
+                id="last-Name"
+                >
+            </div>
+         </div>
+
+         <div class="inline-form">
+            <div class="Form-group">
+                <label for="email">Email</label>
+                <input 
+                type="email"
+                placeholder="user@example.com"
+                id="email"
+                >
+            </div>
+            <div class="Form-group">
+                <label for="phone">Phone No</label>
+                <input 
+                type="tel"
+                placeholder="01640062817"
+                id="phone"
+                >
+            </div>
+         </div>
+
+        <div class="inline-form"> 
+            <div class="Form-group">
+                <label for="country">Country</label>
+               <select id="country">
+                <option value="Bangladesh" selected>Bangladesh
+
+                </option>
+                <option value="india">India</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="srilanka">Srilanka</option>
+               </select>
+            
+            </div>
+            <div class="Form-group">
+                <label for="District">District</label>
+               <select id="District">
+                <option value="Dhaka" selected>Dhaka
+                </option>
+                <option value="khulna">khulna</option>
+                <option value="kustia">kustia</option>
+                <option value="Mumbai">Mumbai</option>
+               </select>
+            </div>
+            
+        </div>
+
+            <div class="inline-form">
+                
+            </div>
+
+           <div class="Form-group">
+            <label>Gender</label>
+            <div class="radio-inline-group">
+                <div class="radio-inline">
+                    <input
+                     type="radio"
+                     value="Male"
+                     id="male"
+                     name="gender"
+                     >
+                    <label for="male">Male</label>
+                     
+                </div>
+
+                <div class="radio-inline">
+                    <input
+                     type="radio"
+                     value="Female"
+                     id="Female"
+                     name="gender"
+                     >
+                    <label for="Female">Female</label>
+                     
+                </div>
+
+                <div class="radio-inline">
+                    <input
+                     type="radio"
+                     value="other"
+                     id="other"
+                     name="gender"
+                     >
+                    <label for="other">other</label>
+                     
+                </div>
+
+
+            </div>
+
+           </div>
+
+           <div class="Form-group bio">
+            <label for="bio">Short Bio</label>
+            <textarea  id="bio"></textarea>
+
+           </div>
+
+           
+           <div class="inline-form">
+            <div class="Form-group">
+                <label for="password">Password</label>
+                <input 
+                type="password"
+                placeholder="password"
+                id="password"
+                >
+            </div>
+            <div class="Form-group">
+                <label for="password2">Confirm Password</label>
+                <input 
+                type="password"
+                placeholder="password"
+                id="password2"
+                >
+            </div>
+         </div>
+
+          <div class="Form-group">
+            <div class="radio-inline">
+                <input 
+                type="checkbox"
+                id="aggreement"
+                >
+                <label for="aggreement">
+
+                
+                I accept terms and conditions </label
+                >
+               
+
+            </div>
+
+          </div>
+           
+         <div class="Form-group">
+            <button class="btn btn-reset" type="reset">Reset</button>
+            <button class="btn btn-submit" type="submit">Submit</button>
+
+         </div>
+
+
+        </form>
+      </section>
+    </div>
+</body>
+</html>
